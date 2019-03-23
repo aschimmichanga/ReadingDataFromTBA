@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
 
                     String line;
                     while ((line = br.readLine()) != null) {
-                        sb.append(line + "\n"); 
+                        sb.append(line + "\n");
                     }
 
                     String jsonString = sb.toString();
